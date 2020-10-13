@@ -4,6 +4,8 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class Utils {
 
@@ -24,7 +26,11 @@ public class Utils {
     }
 
     public static InputStream getResourceFromUrl(String url) throws IOException {
-        return FileHelper.getStreamFromUrl(url);
+        final URLConnection connection = new URL(url).openConnection();
+        connection.setRequestProperty("User-Agent", "Mozilla/5.0");
+        connection.setRequestProperty("Accept_Language", "en-US,q=0.5");
+        connection.setDoOutput(true);
+        return connection.getInputStream();
     }
 
 }
