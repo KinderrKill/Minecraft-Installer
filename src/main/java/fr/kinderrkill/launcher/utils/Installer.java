@@ -28,12 +28,12 @@ public class Installer {
         this.filesToDownload = new ArrayList<>();
     }
 
-    public void run() {
-        initFilesToDowload();
+    public void start() {
+        initFilesToDownload();
         startDownloadThread();
     }
 
-    private void initFilesToDowload() {
+    private void initFilesToDownload() {
         final String minecraftDirectory = OSHelper.getOS().getMinecraftDirectory();
 
         File versionDirectory = new File(minecraftDirectory, "versions");
@@ -51,7 +51,7 @@ public class Installer {
     }
 
     private void precalculateDownloadSize() {
-        int totalSize = 1; // Not zero, so no divide by 0 after.
+        int totalSize = 1;
         for (File file : filesToDownload) {
             try {
                 URL urlDowndloadFile = new URL(Utils.DOWNLOAD_URL + file.getName());
@@ -101,23 +101,17 @@ public class Installer {
     private void startDownloadThread() {
         Thread t = new Thread(new Runnable() {
             public void run() {
-                boolean needUpdate = true;
+                boolean needUpdate = true; //Check version and download if version is different
 
                 if (needUpdate) {
                     precalculateDownloadSize();
                     if (!downloadFilesToDownload()) {
-                        //mainWindow.onFailUpdate("FailedDownloadingMinefieldFiles");
-                        return;
+                        //DO ERROR MSG
                     }
-                    //if (!settingUpLauncherProfile()) {
-                        //mainWindow.onFailUpdate("FailedSettingUpLauncherProfile");
-                      //  return;
-                    //}
-                    //saveClientVersion();
                 }
                 System.out.println("FINISH DOWLOADING !");
                 panel.getStartButton().setEnabled(true);
-               // runMinecraftLauncher();
+                //TODO : Launch Mincraft Launcher
             }
         });
         t.start();

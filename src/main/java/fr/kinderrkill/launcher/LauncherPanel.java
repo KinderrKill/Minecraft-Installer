@@ -50,7 +50,7 @@ public class LauncherPanel extends JPanel {
         startButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                installer.run();
+                installer.start();
                 startButton.setEnabled(false);
             }
         });

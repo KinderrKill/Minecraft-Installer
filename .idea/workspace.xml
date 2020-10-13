@@ -14,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd380cab-5c69-4329-8183-67f4fe9169d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/FileHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,6 +46,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1inkkAEqRSpwPZwYvhJC9eXLegJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -99,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602550436874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Delete useless files">
+      <created>1602550918498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602550918498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,11 +125,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base of the project" />
+    <MESSAGE value="Delete useless files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete useless files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1602541435428">
@@ -131,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550785472" />
-    <state x="817" y="422" key="Github.ShareDialog" timestamp="1602534018781">
+    <state x="817" y="422" key="Github.ShareDialog" timestamp="1602551302612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="422" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602534018781" />
+    <state x="817" y="422" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602551302612" />
     <state x="654" y="136" key="Github.UntrackedFilesDialog" timestamp="1602534024488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,10 +186,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="340" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550821260" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602550555385">
+    <state x="590" y="274" key="MultipleFileMergeDialog" timestamp="1602550934220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550555385" />
+    <state x="590" y="274" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550934220" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602550919721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550919721" />
     <state x="1920" y="31" width="1535" height="685" maximized="true" key="dock-window-1" timestamp="1602548846177">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
