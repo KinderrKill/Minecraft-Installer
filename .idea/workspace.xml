@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MinecraftLauncher.main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -14,10 +19,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd380cab-5c69-4329-8183-67f4fe9169d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MinecraftLauncher_main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/MinecraftLauncherFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/MinecraftLauncherFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Launcher.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Launcher.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Launcher.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Launcher.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +87,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -112,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602550918498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Init commit">
+      <created>1602551536272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602551536272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,13 +168,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base of the project" />
     <MESSAGE value="Delete useless files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete useless files" />
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1602541435428">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603315387894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315387894" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1603310723927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603310723927" />
     <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602541435428" />
+    <state x="278" y="339" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603315988383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="278" y="339" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315988383" />
     <state x="689" y="300" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602536415444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,29 +193,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550785472" />
-    <state x="817" y="422" key="Github.ShareDialog" timestamp="1602551302612">
+    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1603315478922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="422" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602551302612" />
+    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315478922" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603315934457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315934457" />
+    <state x="817" y="422" key="Github.ShareDialog" timestamp="1602551473287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="422" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602551473287" />
     <state x="654" y="136" key="Github.UntrackedFilesDialog" timestamp="1602534024488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="136" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602534024488" />
-    <state width="1877" height="82" key="GridCell.Tab.0.bottom" timestamp="1602550821265">
+    <state width="1877" height="132" key="GridCell.Tab.0.bottom" timestamp="1603315318189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
     <state width="1877" height="82" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550821265" />
-    <state width="1877" height="82" key="GridCell.Tab.0.center" timestamp="1602550821265">
+    <state width="1877" height="132" key="GridCell.Tab.0.center" timestamp="1603315318189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="132" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
     <state width="1877" height="82" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550821265" />
-    <state width="1877" height="82" key="GridCell.Tab.0.left" timestamp="1602550821265">
+    <state width="1877" height="132" key="GridCell.Tab.0.left" timestamp="1603315318189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="132" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
     <state width="1877" height="82" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550821265" />
-    <state width="1877" height="82" key="GridCell.Tab.0.right" timestamp="1602550821265">
+    <state width="1877" height="132" key="GridCell.Tab.0.right" timestamp="1603315318189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="132" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
     <state width="1877" height="82" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550821265" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1602550821260">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -190,13 +249,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="274" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550934220" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602550919721">
+    <state x="57" y="90" key="SettingsEditor" timestamp="1603316006813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602550919721" />
-    <state x="1920" y="31" width="1535" height="685" maximized="true" key="dock-window-1" timestamp="1602548846177">
+    <state x="57" y="90" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603316006813" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602551537580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602551537580" />
+    <state x="-1561" y="-20" width="1541" height="911" maximized="true" key="dock-window-1" timestamp="1603314267212">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1561" y="-20" width="1541" height="911" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603314267212" />
+    <state x="1920" y="31" width="1535" height="685" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602548846177" />
+    <state x="1920" y="0" width="1541" height="911" key="dock-window-2" timestamp="1603312900834">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1920" y="31" width="1535" height="685" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602548846177" />
+    <state x="1920" y="0" width="1541" height="911" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603312900834" />
+    <state x="2003" y="-15" width="1541" height="862" maximized="true" key="dock-window-3" timestamp="1603315268517">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2003" y="-15" width="1541" height="862" maximized="true" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315268517" />
+    <state x="734" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602551467118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="406" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602551467118" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603315780855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315780855" />
   </component>
 </project>

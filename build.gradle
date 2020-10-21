@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile files('libs/swinger-1.0.0-BETA.jar')
+    implementation 'com.google.code.gson:gson:2.8.6'
 }
 
 compileJava {
