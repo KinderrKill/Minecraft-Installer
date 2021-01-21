@@ -18,36 +18,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd380cab-5c69-4329-8183-67f4fe9169d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/json-20180813.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/LauncherWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/kinderrkill/launcher/utils/Installer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Launcher.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Launcher.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/LauncherWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kinderrkill/launcher/utils/Installer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Launcher.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Launcher.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bd380cab-5c69-4329-8183-67f4fe9169d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602551536272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ADD: .gitignore">
+      <created>1611242786230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611242786232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UPDATE: .gitignore">
+      <created>1611242839916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611242839916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge Zeldown modification + Add MO size display">
+      <created>1611242923865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611242923865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +167,10 @@
     <MESSAGE value="Base of the project" />
     <MESSAGE value="Delete useless files" />
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="ADD: .gitignore" />
+    <MESSAGE value="UPDATE: .gitignore" />
+    <MESSAGE value="Merge Zeldown modification + Add MO size display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Zeldown modification + Add MO size display" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603315387894">
@@ -198,47 +193,51 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315934457" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1611242429390">
+    <state width="1877" height="95" key="GridCell.Tab.0.bottom" timestamp="1611242630072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429390" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1611242429390">
+    <state width="1877" height="95" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630072" />
+    <state width="1877" height="95" key="GridCell.Tab.0.center" timestamp="1611242630072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="132" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429390" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1611242429390">
+    <state width="1877" height="95" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630072" />
+    <state width="1877" height="95" key="GridCell.Tab.0.left" timestamp="1611242630071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="132" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429390" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1611242429390">
+    <state width="1877" height="95" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630071" />
+    <state width="1877" height="95" key="GridCell.Tab.0.right" timestamp="1611242630072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="132" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315318189" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429390" />
-    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1611242429267">
+    <state width="1877" height="95" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630072" />
+    <state width="1877" height="95" key="GridCell.Tab.1.bottom" timestamp="1611242630044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429267" />
-    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1611242429267">
+    <state width="1877" height="95" key="GridCell.Tab.1.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630044" />
+    <state width="1877" height="95" key="GridCell.Tab.1.center" timestamp="1611242630044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429267" />
-    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1611242429267">
+    <state width="1877" height="95" key="GridCell.Tab.1.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630044" />
+    <state width="1877" height="95" key="GridCell.Tab.1.left" timestamp="1611242630044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429267" />
-    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1611242429267">
+    <state width="1877" height="95" key="GridCell.Tab.1.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630044" />
+    <state width="1877" height="95" key="GridCell.Tab.1.right" timestamp="1611242630044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242429267" />
+    <state width="1877" height="95" key="GridCell.Tab.1.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242630044" />
     <state x="744" y="136" key="SettingsEditor" timestamp="1611241287157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="57" y="90" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603316006813" />
     <state x="744" y="136" key="SettingsEditor/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611241287157" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1611243042386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611243042386" />
     <state x="-1786" y="-26" width="1594" height="884" maximized="true" key="dock-window-1" timestamp="1611241636602">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -252,10 +251,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2003" y="-15" width="1541" height="862" maximized="true" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603315268517" />
-    <state x="668" y="208" width="583" height="624" key="find.popup" timestamp="1611239427228">
+    <state x="668" y="208" width="583" height="624" key="find.popup" timestamp="1611242664853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="208" width="583" height="624" key="find.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611239427228" />
+    <state x="668" y="208" width="583" height="624" key="find.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611242664853" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603315780855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
