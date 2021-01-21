@@ -25,17 +25,17 @@ public class Utils {
 
     public static String getOnlineGameVersion() {
         String onlineGameVersion = null;
-            try {
-                InputStream stream = getResourceFromUrl(DOWNLOAD_URL + CLIENT_VERSION_NAME + ".txt");
-                InputStreamReader reader = new InputStreamReader(stream);
-                BufferedReader buffReader = new BufferedReader(reader);
-                onlineGameVersion = buffReader.readLine();
-                buffReader.close();
-                reader.close();
-                stream.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        try {
+            InputStream stream = getResourceFromUrl(DOWNLOAD_URL + CLIENT_VERSION_NAME + ".txt");
+            InputStreamReader reader = new InputStreamReader(stream);
+            BufferedReader buffReader = new BufferedReader(reader);
+            onlineGameVersion = buffReader.readLine();
+            buffReader.close();
+            reader.close();
+            stream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return onlineGameVersion;
     }
 
@@ -43,21 +43,23 @@ public class Utils {
         final String minecraftDirectory = OSHelper.getOS().getMinecraftDirectory();
 
         File versionDirectory = new File(minecraftDirectory, "versions");
-        if(!versionDirectory.exists()) {
+        if (!versionDirectory.exists()) {
             versionDirectory.mkdir();
         }
 
         File clientDestination = new File(versionDirectory, Utils.CLIENT_FILE_NAME);
-        if(!clientDestination.exists()) {
+        if (!clientDestination.exists()) {
             clientDestination.mkdir();
         }
 
         File localVersion = new File(clientDestination, Utils.CLIENT_VERSION_NAME + ".txt");
-        if(localVersion.exists()) {
+        if (localVersion.exists()) {
             try {
                 BufferedReader br = new BufferedReader(new FileReader(localVersion));
                 gameVersionNumber = br.readLine();
-            } catch (IOException e) { e.printStackTrace(); }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         } else {
             gameVersionNumber = "0";
         }

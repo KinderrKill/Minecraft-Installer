@@ -7,9 +7,8 @@ import java.util.Properties;
 
 public class Config {
 
-    private static Properties properties = null;
-
     public static int width, height;
+    private static Properties properties = null;
 
     public static void init() {
         width = getInt("WINDOW_WIDTH");
@@ -49,16 +48,16 @@ public class Config {
 
     private static int[] getRGB(String key) {
         int[] ret = new int[3];
-        for(int i=0; i<3; i++){
-            ret[i] = hexToInt(get(key).charAt(i*2), get(key).charAt(i*2+1));
+        for (int i = 0; i < 3; i++) {
+            ret[i] = hexToInt(get(key).charAt(i * 2), get(key).charAt(i * 2 + 1));
         }
         return ret;
     }
 
-    private static int hexToInt(char a, char b){
-        int x = a < 65 ? a-48 : a-55;
-        int y = b < 65 ? b-48 : b-55;
-        return x*16+y;
+    private static int hexToInt(char a, char b) {
+        int x = a < 65 ? a - 48 : a - 55;
+        int y = b < 65 ? b - 48 : b - 55;
+        return x * 16 + y;
     }
 
     public static int getRelativeInt(String key) {

@@ -1,7 +1,7 @@
 package fr.kinderrkill.launcher.utils;
 
-import java.io.File;
 import javax.swing.filechooser.FileFilter;
+import java.io.File;
 
 public class MinecraftLauncherFilter extends FileFilter {
 

@@ -1,9 +1,7 @@
 package fr.kinderrkill.launcher;
 
 import fr.kinderrkill.launcher.utils.Config;
-import fr.kinderrkill.launcher.utils.OSHelper;
 import fr.kinderrkill.launcher.utils.Utils;
-import fr.theshark34.swinger.animation.Animator;
 
 import javax.swing.*;
 import java.awt.*;

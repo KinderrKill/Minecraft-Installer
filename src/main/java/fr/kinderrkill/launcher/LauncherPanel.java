@@ -5,6 +5,8 @@ import fr.kinderrkill.launcher.utils.Config.Alignment;
 import fr.theshark34.swinger.Swinger;
 import fr.theshark34.swinger.colored.SColoredBar;
 import fr.theshark34.swinger.textured.STexturedButton;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -13,7 +15,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
-import javax.swing.*;
 
 public class LauncherPanel extends JPanel {
 
@@ -40,6 +41,10 @@ public class LauncherPanel extends JPanel {
         setupComponent();
 
         loadLauncherData();
+    }
+
+    public static LauncherPanel getInstance() {
+        return instance;
     }
 
     @Override
@@ -319,9 +324,5 @@ public class LauncherPanel extends JPanel {
 
     public JLabel getProgressLabel() {
         return progressLabel;
-    }
-
-    public static LauncherPanel getInstance() {
-        return instance;
     }
 }

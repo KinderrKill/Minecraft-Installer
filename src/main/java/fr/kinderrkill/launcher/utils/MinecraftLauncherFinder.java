@@ -1,7 +1,6 @@
 package fr.kinderrkill.launcher.utils;
 
 import fr.kinderrkill.launcher.LauncherPanel;
-import fr.kinderrkill.launcher.utils.OSHelper;
 
 import javax.swing.*;
 import java.io.File;
@@ -13,7 +12,20 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class MinecraftLauncherFinder {
+    private static final String[] exeMd5 = new String[]{
+            "350df398c57c56ed744306de95a4e451", // MinecraftLauncher.exe from Minecraft.msi
+            "3389f0c8717e7438bfb0b03498756f27", // An old version
+            "3c166bae84553d4cb27af8abdc61712d", // New (downloaded in may 2014)
+            "7C710AE7EF7A774B30E04C3867F9B96E"
+    };
+    private static final String[] jarMd5 = new String[]{
+            "85273e24404cc6865805f951487b8a1e", // New (downloaded in may 2014)
+    };
+    private static final int BUFFER_SIZE = 3 * 1024 * 1024;
+    private static final byte[] buffer = new byte[BUFFER_SIZE];
     public static boolean searching = true;
+    private static String launcherPath = null;
+    private static MessageDigest messageDigest = null;
 
     public static File getMinecraftLauncherPath() {
         if (launcherPath == null)
@@ -29,7 +41,7 @@ public class MinecraftLauncherFinder {
             launcherPath = path;
         }
 
-        if(launcherMainPanel != null) {
+        if (launcherMainPanel != null) {
             launcherMainPanel.updateMinecraftLauncher();
         }
     }
@@ -57,7 +69,7 @@ public class MinecraftLauncherFinder {
             if (programFile != null) {
                 File pFile = new File(programFile);
                 File mpFile = new File(pFile, "Minecraft Launcher");
-                if(!mpFile.exists()) {
+                if (!mpFile.exists()) {
                     mpFile = new File(pFile, "Minecraft");
                 }
                 File launcher = new File(mpFile, "MinecraftLauncher.exe");
@@ -213,20 +225,4 @@ public class MinecraftLauncherFinder {
         }
         return null;
     }
-
-    private static final String[] exeMd5 = new String[]{
-            "350df398c57c56ed744306de95a4e451", // MinecraftLauncher.exe from Minecraft.msi
-            "3389f0c8717e7438bfb0b03498756f27", // An old version
-            "3c166bae84553d4cb27af8abdc61712d", // New (downloaded in may 2014)
-            "7C710AE7EF7A774B30E04C3867F9B96E"
-    };
-    private static final String[] jarMd5 = new String[]{
-            "85273e24404cc6865805f951487b8a1e", // New (downloaded in may 2014)
-    };
-
-    private static final int BUFFER_SIZE = 3 * 1024 * 1024;
-    private static final byte[] buffer = new byte[BUFFER_SIZE];
-
-    private static String launcherPath = null;
-    private static MessageDigest messageDigest = null;
 }
