@@ -56,7 +56,7 @@
 
 
 <!-- HREF: about-the-project -->
-## Téléchargement de l'installeur
+## I - Téléchargement de l'installeur
 <p align="center">
 <img src="https://static.companyofcube.fr/youtube/webAssets/mcLauncher_1.jpg" alt="Logo" width="350" height="200">
 </p>
@@ -190,7 +190,7 @@ Vous devez répéter cette opération à chaque mise à jour.
 <br/><br/>
 
 <!-- GETTING STARTED -->
-## Récupérer les sources de l'installeur
+## II - Récupérer les sources de l'installeur
 
 Pour récupérer le code source de l'installeur rien de plus simple, vous devez suivre les étapes suivantes.
 
@@ -226,6 +226,16 @@ Package "fr.kinderrkill.launcher.utils" :
 5. `OSHelper` = Outil de détéction des systèmes d'exploitation et fonctions de navigation vers le répertoire .minecraft
 6. `Utils` = Contient des fonctions pour les versions du jeu, nom de variables et autre modification du .properties.
     
+### Exporter votre installeur :
+
+Avec Gradle rien de plus simple :
+`Gradle > Task > Build > jar`
+
+<p align="center">
+<img src="https://static.companyofcube.fr/youtube/webAssets/buildGradle.PNG" alt="Logo" width="350" height="400">
+</p>
+
+Et l'installeur sera mis dans le dossier `build > libs`
 
 <!-- Possibilitées -->
 ## Possibilitées
