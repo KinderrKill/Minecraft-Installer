@@ -38,29 +38,28 @@
   <summary><h2 style="display: inline-block">Sommaire :</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">Téléchargement de l'installeur</a>
+      Téléchargement de l'installeur</a>
       <ul>
-        <li><a href="#built-with">Modification du fichier Launcher.properties</a></li>
-        <li><a href="#built-with">Exemple de configuration</a></li>
-        <li><a href="#built-with">Distribuer votre installeur</a></li>
-        <li><a href="#built-with">Mettre à jour votre client</a></li>
+        <li>Modification du fichier Launcher.properties</a></li>
+        <li>Exemple de configuration</a></li>
+        <li>Distribuer votre installeur</a></li>
+        <li>Mettre à jour votre client</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Récupérer les sources de l'installeur</a>
+      Récupérer les sources de l'installeur</a>
       <ul>
-        <li><a href="#prerequisites">Prérequis</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Explications</a></li>
-        <li><a href="#roadmap">Roadmap</a></li>
+        <li>Prérequis</a></li>
+        <li>Installation</a></li>
+        <li>Explications des classes</a></li>
+        <li>Possibilités</a></li>
       </ul>
     </li>
-    <li><a href="#license">Contribuer</a></li>
-    <li><a href="#contact">Contacts</a></li>
-    <li><a href="#acknowledgements">Remerciements</a></li>
+    <li>Contribuer</a></li>
+    <li>Contacts</a></li>
+    <li>Remerciement</a></li>
   </ol>
 </details>
-
 
 
 <!-- HREF: about-the-project -->
@@ -77,7 +76,7 @@
 <br/><br/>
 
 <!-- HREF: built-with -->
-###Modification du fichier Launcher.properties
+### Modification du fichier Launcher.properties
 
 Le fichier `Launcher.properties` regroupe toutes les modifications et options disponible sans modifier une seul ligne de code !
 <br/><br/>
