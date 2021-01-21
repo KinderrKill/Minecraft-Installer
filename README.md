@@ -1,10 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -52,6 +45,8 @@
         <li>Prérequis</a></li>
         <li>Installation</a></li>
         <li>Explications des classes</a></li>
+        <li>Exporter votre installeur</a></li>
+        <li>Convertir en .exe</a></li>
         <li>Possibilités</a></li>
       </ul>
     </li>
@@ -63,7 +58,7 @@
 
 
 <!-- HREF: about-the-project -->
-## Téléchargement de l'installeur
+## I - Téléchargement de l'installeur
 <p align="center">
 <img src="https://static.companyofcube.fr/youtube/webAssets/mcLauncher_1.jpg" alt="Logo" width="350" height="200">
 </p>
@@ -197,7 +192,7 @@ Vous devez répéter cette opération à chaque mise à jour.
 <br/><br/>
 
 <!-- GETTING STARTED -->
-## Récupérer les sources de l'installeur
+## II - Récupérer les sources de l'installeur
 
 Pour récupérer le code source de l'installeur rien de plus simple, vous devez suivre les étapes suivantes.
 
@@ -233,6 +228,21 @@ Package "fr.kinderrkill.launcher.utils" :
 5. `OSHelper` = Outil de détéction des systèmes d'exploitation et fonctions de navigation vers le répertoire .minecraft
 6. `Utils` = Contient des fonctions pour les versions du jeu, nom de variables et autre modification du .properties.
     
+### Exporter votre installeur :
+
+Avec Gradle rien de plus simple :
+`Gradle > Task > Build > jar`
+
+<p align="center">
+<img src="https://static.companyofcube.fr/youtube/webAssets/buildGradle.PNG" alt="Logo" width="350" height="400">
+</p>
+
+Et l'installeur sera mis dans le dossier `build > libs`
+
+### Convertir en .exe :
+
+Pour convertir votre fichier .jar en .exe (et ainsi avoir une belle icône), vous devrez utiliser le logiciel [Launch4J](http://launch4j.sourceforge.net/)
+Il existe beaucoup de tutoriel sur son utilisation sur internet :)
 
 <!-- Possibilitées -->
 ## Possibilitées
@@ -272,14 +282,3 @@ Project Link: [https://github.com/KinderrKill/MinecraftLauncher](https://github.
 ## Remerciement
 
 * [Zeldown](https://github.com/Zeldown/) [[Zeldown Github]](https://github.com/Zeldown/) Pour son intéret pour le projet et son aide pour la mise en place d'une meilleur configuration dynamique !
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/KinderrKill/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/KinderrKill/MinecraftLauncher/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/KinderrKill/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/KinderrKill/MinecraftLauncher/network/members
-[stars-shield]: https://img.shields.io/github/stars/KinderrKill/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/KinderrKill/MinecraftLauncher/stargazers
-[issues-shield]: https://img.shields.io/github/issues/KinderrKill/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/KinderrKill/MinecraftLauncher/issues
