@@ -45,6 +45,8 @@
         <li>Prérequis</a></li>
         <li>Installation</a></li>
         <li>Explications des classes</a></li>
+        <li>Exporter votre installeur</a></li>
+        <li>Convertir en .exe</a></li>
         <li>Possibilités</a></li>
       </ul>
     </li>
@@ -236,6 +238,11 @@ Avec Gradle rien de plus simple :
 </p>
 
 Et l'installeur sera mis dans le dossier `build > libs`
+
+### Convertir en .exe :
+
+Pour convertir votre fichier .jar en .exe (et ainsi avoir une belle icône), vous devrez utiliser le logiciel [Launch4J](http://launch4j.sourceforge.net/)
+Il existe beaucoup de tutoriel sur son utilisation sur internet :)
 
 <!-- Possibilitées -->
 ## Possibilitées
