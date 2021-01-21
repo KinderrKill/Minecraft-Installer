@@ -3,16 +3,17 @@ plugins {
 }
 
 group 'fr.kinderrkill'
-version '1.0'
+version '1.1'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile files('libs/swinger-1.0.0-BETA.jar', "libs/json-20180813.jar")
+    implementation fileTree("libs")
 }
 
 compileJava {
     options.encoding = 'UTF-8'
 }
+
