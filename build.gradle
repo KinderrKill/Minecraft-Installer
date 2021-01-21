@@ -1,19 +1,65 @@
-plugins {
-    id 'java'
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.4'
+        classpath 'de.sebastianboegl.gradle.plugins:shadow-log4j-transformer:2.2.0'
+    }
 }
 
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'com.github.johnrengelman.shadow'
+
 group 'fr.kinderrkill'
-version '1.1'
+version '1.0'
+
+archivesBaseName = "minecraftlauncher"
+mainClassName = "fr.kinderrkill.launcher.Main"
+
+compileJava {
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+}
+
+jar {
+    archiveName = "MinecraftLauncher_TEST.jar"
+    from {
+        configurations.runtime.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    manifest {
+        attributes 'Main-Class': 'fr.kinderrkill.launcher.Main'
+    }
+
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+}
+
+configurations {
+    providedCompile
+}
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
+compileJava.options.encoding = 'UTF-8'
+
 dependencies {
-    implementation fileTree("libs")
+    compile fileTree(dir: 'libs', include: '*.jar')
+    shadow fileTree(dir: 'libs', include: '*.jar')
 }
 
 compileJava {
     options.encoding = 'UTF-8'
 }
-
