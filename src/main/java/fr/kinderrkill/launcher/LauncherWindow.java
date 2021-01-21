@@ -15,8 +15,9 @@ public class LauncherWindow extends JFrame {
     }
 
     public void launch() {
+        Config.init();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setPreferredSize(new Dimension(new Dimension(720, 480)));
+        setPreferredSize(new Dimension(new Dimension(Config.width, Config.height)));
         setBackground(Color.GRAY);
 
         setIconImage(Utils.getResource(Config.get("LAUNCHER_ICON_TEXTURE")));
