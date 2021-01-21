@@ -26,7 +26,7 @@ compileJava {
 }
 
 jar {
-    archiveName = "MinecraftLauncher_TEST.jar"
+    archiveName = "Client Custom Installer.jar"
     from {
         configurations.runtime.collect {
             it.isDirectory() ? it : zipTree(it)
