@@ -106,7 +106,9 @@ Exemple du dossier contenant les fichiers .json / .jar / version.txt et optionne
 <p align="center">
 <img src="https://static.companyofcube.fr/youtube/webAssets/mcLauncher_2.jpg" alt="Logo" width="580" height="130">
 </p>
+[Vous pouvez aussi retrouver un exemple ici](https://github.com/KinderrKill/MinecraftLauncher/tree/master/src/web-files-exemple)
 <br/>
+
 
 **Le reste des modifications sont optionnelles**
 
