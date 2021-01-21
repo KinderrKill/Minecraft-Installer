@@ -1,10 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -272,14 +265,3 @@ Project Link: [https://github.com/KinderrKill/MinecraftLauncher](https://github.
 ## Remerciement
 
 * [Zeldown](https://github.com/Zeldown/) [[Zeldown Github]](https://github.com/Zeldown/) Pour son intéret pour le projet et son aide pour la mise en place d'une meilleur configuration dynamique !
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/KinderrKill/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/KinderrKill/MinecraftLauncher/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/KinderrKill/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/KinderrKill/MinecraftLauncher/network/members
-[stars-shield]: https://img.shields.io/github/stars/KinderrKill/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/KinderrKill/MinecraftLauncher/stargazers
-[issues-shield]: https://img.shields.io/github/issues/KinderrKill/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/KinderrKill/MinecraftLauncher/issues
