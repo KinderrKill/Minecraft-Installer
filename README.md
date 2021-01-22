@@ -16,7 +16,7 @@
     De plus avec l'arrivé de l'authentification Microsoft, nous ne sommes pas à l'abris d'une <br/>
     coupure bête et simple des systèmes d'authentification externes.<br/>
     <br />
-    <a href="https://www.youtube.com/channel/UCzzeZfPXqh18DFtI2ml0DVg">Vidéo de présentation</a>
+    <a href="https://youtu.be/a9RvZ2-TvhI">Vidéo de présentation</a>
     ·
     <a href="https://github.com/KinderrKill/MinecraftLauncher/issues">Signaler un bug</a>
     ·
